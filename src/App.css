@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 .landing-page {
@@ -29,22 +29,27 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
- top: 100px;
+  width: auto;
+  top: 100px;
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
+ /*margin-top: 430px;
+  /*margin-left: 100px;
   transform: translate(-50%, -50%);
   z-index: 1;
   text-align: center;
-  /* background-color: red; */
+  /* background-color: red; 
   width: 400px;
-  height: 400px;
+  height: 400px;*/
+  margin: 0 auto;
+  margin-top: 100px;
+  width: auto;
+  height: auto;
+  text-align: center;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -125,13 +130,14 @@
   .landing_content {
     margin-top: 100px; /* Adjust as needed */
     margin-left: 0;
-    width: 80%; /* Adjust as needed */
+    width: auto; /* Adjust as needed */
     text-align: center;
   }
 
   .aboutus_container {
     margin-top: 20px; /* Adjust as needed */
     width: 80%; /* Adjust as needed */
+    
   }
 }
 
